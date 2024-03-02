@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Portfolio | Dharshini</title>
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/05/00/88/46/360_F_500884609_x94vt52VKMVMRGLhA7S6JCOJE8VgpYHq.jpg">
+    <link rel="stylesheet" href="MainRes.css">
+</head>
+
+<body>
+    <div class="load">
+        <div class="load-spinner"></div>
+    </div>
+    <div id="nav">
+        <h1 onclick="PageMain()">Portfolio</h1>
+        <ul>
+            <li onclick="PageMain()">Home</li>
+            <li onclick="PageAbout()">About</li>
+            <li onclick="PageSkills()">Skills</li>
+            <li onclick="PageProject()">Project</li>
+            <li onclick="PageStudies()">Studies</li>
+            <li onclick="PageContact()">Contact</li>
+        </ul>
+
+    </div>
+    <div id="Main">
+        <div id="main2">
+            <p id="developerMessage">Full Stack Enthusiast</p>
+            <p id="myself">Hello I'm Dharshini</p>
+        </div>
+        <div id="main1">
+            <h2>Crafting seamless experiences from pixels to databases, because in the world of coding, I'm not just a
+                developer — I'm the full-stack architect of digital possibilities.</h2>
+            <div id="button">
+                <button onclick="PageAbout()"><span>Explore</span></button>
+            </div>
+        </div>
+    </div>
+    <div id="About">
+        <div id="abo1">
+            <div id="box">
+                <video autoplay loop muted>
+                    <source src="Dharshini.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div id="abo2">
+            <h3>Hey,</h3>
+            <h4>I'm Dharshini</h4>
+            <p>Currently pursuing my Bachelor's in Computer Science at National Engineering College. I'm passionate
+                about full-stack development, and I specialize in front-end technologies like ReactJS, HTML, CSS, and
+                JavaScript. I also have a basic understanding of backend frameworks such as Node.js. Currently, I'm
+                expanding my skills into blockchain for enhanced security. Looking forward to exploring new
+                opportunities and challenges!</p>
+            <button><span><a  target="_blank" href="./2112026resume.pdf">Resume</a></span></button>
+        </div>
+    </div>
+    <div id="Skills">
+        <div id="float">
+            <img class="floating-image" src="html.png">
+            <img class="floating-image2" src="css.png">
+        </div>
+        <div id="float2">
+            <div id="hlo">
+                <div><h5>HTML</h5></div>
+                <div id="progress">
+                    <div class="progress-value1"></div>
+                </div>
+            </div>
+            <div id="hlo">
+                <div><h5>CSS</h5></div>
+                <div id="progress">
+                    <div class="progress-value2"></div>
+                </div>
+            </div>
+            <div id="hlo">
+                <div><h5>JS</h5></div>
+                <div id="progress">
+                    <div class="progress-value3"></div>
+                </div>
+            </div>
+            <div id="hlo">
+                <div><h5>C</h5></div>
+                <div id="progress">
+                    <div class="progress-value4"></div>
+                </div>
+            </div>
+            <div id="hlo">
+                <div><h5>JAVA</h5></div>
+                <div id="progress">
+                    <div class="progress-value5"></div>
+                </div>
+            </div>
+            <div id="hlo">
+                <div><h5>Node JS</h5></div>
+                <div id="progress">
+                    <div class="progress-value6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Project">
+        <p onclick="prevSlide()"><span class="material-symbols-outlined">
+                arrow_back_ios
+            </span></p>
+        <div id="box1" class="box">
+            <div id="title1">Git Searcher</div>
+            <div id="procon1">
+                <h5>Description:</h5>Create a tool that, given a username, retrieves and presents the repositories and project links associated with that user. This tool offers a streamlined way to access and explore a user's projects and contributions within a single interface.<br><br>
+                <button><a href="https://git-searcher-black.vercel.app/">view</a></button>
+            </div>
+        </div>
+        <div id="box2" class="box">
+            <div id="title2">Freelancer</div>
+            <div id="procon2">
+                <h5>Description: </h5> Empower freelancers and clients alike with our comprehensive Freelancer
+                platform.
+                Whether you're a skilled professional looking for freelance opportunities or a business seeking top
+                talent,
+                our platform facilitates seamless collaboration, secure transactions, and a user-friendly experience.
+                Embrace the freedom of freelancing with our feature-rich solution.<br><br>
+                <button>OnGoing</button>
+            </div>
+        </div>
+        <div id="box3" class="box">
+            <div id="title3">Respite Resort</div>
+            <div id="procon3">
+                <h5>Description: </h5>It focuses on creating a comprehensive platform that provides information
+                about various resort locations, offers user-friendly gallery nad blog page , and showcases an
+                engaging about page for the Website.<br><br>
+                <button><a href="https://dharshinir04.github.io/Respite_Resort/hotel.html">view</a></button>
+            </div>
+        </div>
+        <div id="box4" class="box">
+            <div id="title4">Burger_king Replica</div>
+            <div id="procon4">
+                <h5>Description: </h5>Welcome to BurgerKing-Landing-Clone, a meticulously crafted replica of the Burger King landing page.<br><br>
+                <button><a href="https://dharshinir04.github.io/Burger_King/BurgerKing.html">view</a></button>
+            </div>
+        </div>
+        <div id="box5" class="box">
+            <div id="title5">Forecast Flow</div>
+            <div id="procon5">
+                <h5>Description: </h5>This project is a simple Weather App built using React, allowing users to check the current weather conditions for a specific city. It integrates with the OpenWeatherMap API to fetch real-time weather data and displays it in a user-friendly interface.<br><br>
+                <button><a href="https://forecast-flow-dharshini.vercel.app/">view</a></button>
+            </div>
+        </div>
+        <div id="box6" class="box">
+            <div id="title6">BMI calculator</div>
+            <div id="procon6">
+                <h5>Description: </h5>This is a simple Body Mass Index (BMI) calculator web application created using HTML, CSS, and JavaScript. This project aims to provide a user-friendly interface for individuals to calculate their BMI quickly and assess their body weight status.<br><br>
+                <button><a href="https://dharshinir04.github.io/BMI_Calculator/BMI/bmi.html">view</a></button>
+            </div>
+        </div>
+        <p onclick="nextSlide()"><span class="material-symbols-outlined">
+                arrow_forward_ios
+            </span>
+        <p>
+    </div>
+    <div id="Studies">
+        <div id="outer">
+            <div id="box">
+                <h3>Bachelor of Engineering in Computer science</h3>
+                <h4>National Engineering College</h4>
+                <h3>2021 - 2025</h3>
+            </div>
+            <div id="box">
+                <h3>HSC</h3>
+                <h4>Punitha Arullapar Hr.Sec School</h4>
+                <h3>2018 - 2020</h3>
+            </div>
+        </div>
+    </div>
+    <div id="Contact">
+        <h2>Contact</h2>
+        <div id="contact-item">
+            <i class="material-icons">mail</i>
+            <p>dharshinirajaram48@gmail.com | 2112026@nec.edu.in</p>
+        </div>
+        <div id="contact-item">
+            <i class="material-icons">phone</i>
+            <p>9344112673</p>
+        </div>
+        <div id="contact-item">
+            <i class="material-icons">location_on</i>
+            <p>Tenkasi , India</p>
+        </div>
+    </div>
+    <div id="update">
+         <h3>Last updated on <span>02/03/2024</span></h3>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+
+        const sr = ScrollReveal({
+            reset: true,
+            distance: '60px',
+            delay: 400,
+            duration: 550
+        });
+
+
+        sr.reveal('#main2', { delay: 500, origin: 'left' });
+        sr.reveal('#main1', { delay: 500, origin: 'top' });
+        sr.reveal('#abo2', { delay: 500, origin: 'left' });
+        sr.reveal('#box', { delay: 500, origin: 'top' });
+        sr.reveal('#abo1', { delay: 500, origin: 'top' });
+        sr.reveal('#title1', { delay: 500, origin: 'bottom' });
+        sr.reveal('#title2', { delay: 500, origin: 'bottom' });
+        sr.reveal('.progress-value1', { delay: 500, origin: 'right' });
+        sr.reveal('.progress-value2', { delay: 500, origin: 'left' });
+        sr.reveal('.progress-value3', { delay: 500, origin: 'right' });
+        sr.reveal('.progress-value4', { delay: 500, origin: 'left' });
+        sr.reveal('.progress-value5', { delay: 500, origin: 'right' });
+        sr.reveal('.progress-value6', { delay: 500, origin: 'left' });
+        sr.reveal('#contact-item', { delay: 500, origin: 'left' });
+    </script>
+    <script src="MainRes.js"></script>
+
+
+</body>
+
+</html>
